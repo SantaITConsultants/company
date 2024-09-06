@@ -401,7 +401,7 @@ export default function Home() {
             {
               imgUrl: '/images/icons/contact_icon_3.svg',
               titleUp: 'Address',
-              title: 'Yewtree Cottage, Kings Pyon',
+              title: 'Santa Clara, California, USA',
               textColor: 'text-white',
             },
           ]}

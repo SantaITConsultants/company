@@ -49,7 +49,7 @@ export default function ContactPage() {
                   />
                   <IconboxStyle2
                     imgUrl="/images/icons/contact_icon_3.svg"
-                    title="Yewtree Cottage, Kings Pyon"
+                    title="Santa Clara, California, USA"
                     titleUp="Address"
                   />
                 </div>
