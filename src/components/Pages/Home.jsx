@@ -389,7 +389,7 @@ export default function Home() {
             {
               imgUrl: '/images/icons/contact_icon_1.svg',
               titleUp: 'Have Any Question?',
-              title: '+ 1 (510) 854-9596',
+              title: '+ 1 (307) 274 2280',
               textColor: 'text-white',
             },
             {

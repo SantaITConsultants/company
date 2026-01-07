@@ -27,7 +27,7 @@ export default function Footer() {
               Have Any Question?
             </h3>
             <h2 className="text-white fw-medium m-0 cs_fs_22">
-              + 1 (510) 854-9596
+              + 1 (307) 274 2280
             </h2>
           </div>
           <div className="cs_footer_logo">

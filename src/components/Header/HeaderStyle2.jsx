@@ -28,11 +28,9 @@ export default function HeaderStyle2({ variant }) {
   }, [prevScrollPos]);
   return (
     <header
-      className={`cs_site_header cs_style_1 ${
-        variant ? variant : ''
-      } cs_sticky_header cs_site_header_full_width ${
-        mobileToggle ? 'cs_mobile_toggle_active' : ''
-      } ${isSticky ? isSticky : ''}`}
+      className={`cs_site_header cs_style_1 ${variant ? variant : ''
+        } cs_sticky_header cs_site_header_full_width ${mobileToggle ? 'cs_mobile_toggle_active' : ''
+        } ${isSticky ? isSticky : ''}`}
     >
       <div className="cs_main_header">
         <div className="container">
@@ -60,9 +58,8 @@ export default function HeaderStyle2({ variant }) {
             <div className="cs_main_header_right">
               <div className="cs_toolbox">
                 <div
-                  className={`cs_header_search_wrap position-relative ${
-                    searchToggle ? 'active' : ''
-                  }`}
+                  className={`cs_header_search_wrap position-relative ${searchToggle ? 'active' : ''
+                    }`}
                 >
                   <span
                     className="cs_header_search_btn d-flex"
@@ -134,7 +131,7 @@ export default function HeaderStyle2({ variant }) {
                     <h3 className="fw-normal cs_mb_6 cs_fs_13">
                       Need help? Call us:
                     </h3>
-                    <h3 className="m-0 cs_fs_13">+1 (510) 854-9596</h3>
+                    <h3 className="m-0 cs_fs_13">+1 (307) 274 2280</h3>
                   </div>
                 </div>
               </div>

@@ -3,8 +3,8 @@ import Portfolio from '../Portfolio';
 
 const categoryMenu = [
   {
-    title: 'graphics',
-    category: 'graphics',
+    title: 'application',
+    category: 'application',
   },
   {
     title: 'website',
@@ -43,13 +43,12 @@ export default function Gallery({ data }) {
       <div className="row">
         {data.slice(0, itemShow).map((item, index) => (
           <div
-            className={`col-lg-4 col-md-6 ${
-              active === 'all'
+            className={`col-lg-4 col-md-6 ${active === 'all'
                 ? ''
                 : !(active === item.category)
-                ? 'd-none'
-                : ''
-            }`}
+                  ? 'd-none'
+                  : ''
+              }`}
             key={index}
           >
             <Portfolio {...item} />
