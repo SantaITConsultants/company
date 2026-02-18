@@ -436,7 +436,7 @@ export default function Home6() {
             {
               imgUrl: '/images/icons/contact_icon_1.svg',
               titleUp: 'Have Any Question?',
-              title: '+ 1 (307) 274 2280',
+              title: '+ 1 (708) 465-1319',
               textColor: 'text-white',
             },
             {

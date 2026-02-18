@@ -131,7 +131,7 @@ export default function HeaderStyle3({ variant }) {
                       Need help? Call us:
                     </h3>
                     <h3 className="text-white m-0 cs_fs_13">
-                      +1 (307) 274 2280
+                      +1 (708) 465-1319
                     </h3>
                   </div>
                 </div>

@@ -18,39 +18,35 @@ const serviceData = [
   {
     iconUrl: '/images/icons/service_icon_1.svg',
     title: 'Software Development',
-    subTitle:
-      'We design and develop tailored web and mobile applications to meet your unique business needs, using modern technologies like React and Node.js.',
-    imgUrl: '/images/service_1.jpg',
-    href: '/service/services-details',
+    subTitle: 'We build custom web and mobile applications that improve efficiency, enhance user experience, and support long-term business growth.',
+    imgUrl: '/images/services/service_1.jpg',
+    href: '/service/software-development',
   },
   {
     iconUrl: '/images/icons/service_icon_2.svg',
     title: 'Cybersecurity Solutions',
-    subTitle:
-      'We provide comprehensive security audits, threat detection, and compliance services to protect your business from cyber risks and ensure data privacy.',
-    imgUrl: '/images/service_2.jpeg',
-    href: '/service/services-details',
+    subTitle: 'We protect your systems with proactive monitoring, risk assessments, threat prevention, and compliance strategies to reduce vulnerabilities.',
+    imgUrl: '/images/services/service_2.jpeg',
+    href: '/service/cybersecurity-solutions',
   },
   {
     iconUrl: '/images/icons/service_icon_3.svg',
     title: 'Managed IT Services',
-    subTitle:
-      'Our ongoing support and infra structure management ensure your systems run smoothly, with proactive monitoring and fast issue resolution.',
-    imgUrl: '/images/service_3.jfif',
-    href: '/service/services-details',
+    subTitle: 'We deliver reliable IT support, infrastructure management, and performance optimization to ensure secure, stable, and efficient operations.',
+    imgUrl: '/images/services/service_3.jfif',
+    href: '/service/managed-it-services',
   },
   {
     iconUrl: '/images/icons/service_icon_4.svg',
     title: 'Business Intelligence',
-    subTitle:
-      'We implement data-driven solutions, providing custom dashboards and insights to help businesses make informed decision and optimize operations.',
-    imgUrl: '/images/service_4.jpeg',
-    href: '/service/services-details',
+    subTitle: 'We transform complex data into actionable insights through analytics, dashboards, and reporting tools that support smarter business decisions.',
+    imgUrl: '/images/services/service_4.jpeg',
+    href: '/service/business-intelligence',
   },
 ];
 
 const videoData = {
-  imgSrc: '/images/video_block.jpeg',
+  imgSrc: '/images/video_block1.jpeg',
   bgImgUrl: '/images/video_block_shape.jpeg',
   videoSrc: 'https:/www.youtube.com/embed/0Tz4Ycjbdbg',
   title: 'Your Trusted Agency of <br /> Choice',
@@ -77,97 +73,101 @@ const faqData = [
 
 const testimonialData = [
   {
-    imgUrl: '/images/testimonial_thumb_1.png',
-    subTitle:
-      "Fantastic IT support! The team was incredibly responsive and resolved our issues quickly. Their proactive approach and technical expertise kept our systems running smoothly, minimizing disruptions. We greatly appreciate their dependable service.",
+    imgUrl: '/images/testimonials/testimonial_thumb_21.png',
+    subTitle: "Fantastic IT support! The team was incredibly responsive and resolved our issues quickly. Their proactive approach and technical expertise kept our systems running smoothly, minimizing disruptions. We greatly appreciate their dependable service.",
     rating: '5',
     designation: 'Web design',
-    name: 'Mike R.',
+    name: 'Jennifer W.',
   },
   {
-    imgUrl: '/images/testimonial_thumb_2.png',
-    subTitle:
-      "The cloud migration handled by this team was flawless. They ensured a smooth and secure transition with minimal downtime. Their support was thorough, addressing all our concerns and optimizing our cloud environment. We couldn't be happier with the results.",
+    imgUrl: '/images/testimonials/testimonial_thumb_22.png',
+    subTitle: "The cloud migration handled by this team was flawless. They ensured a smooth and secure transition with minimal downtime. Their support was thorough, addressing all our concerns and optimizing our cloud environment. We couldn't be happier with the results.",
     rating: '4.5',
     designation: 'Ui designer',
-    name: 'Sarah L.',
+    name: 'Meriel A.',
   },
   {
-    imgUrl: '/images/testimonial_thumb_3.png',
-    subTitle:
-      "Exceptional service! The team seamlessly transformed our IT infrastructure with impressive efficiency. Their expertise and attention to detail were evident throughout the project. Highly recommended for anyone looking to upgrade their IT systems.",
+    imgUrl: '/images/testimonials/testimonial_thumb_23.png',
+    subTitle: "Exceptional service! The team seamlessly transformed our IT infrastructure with impressive efficiency. Their expertise and attention to detail were evident throughout the project. Highly recommended for anyone looking to upgrade their IT systems.",
     rating: '4',
     designation: 'Web developer',
-    name: 'John D.',
+    name: 'Eleftheria P.',
+  },
+  {
+    imgUrl: '/images/testimonials/testimonial_thumb_24.png',
+    subTitle: "Exceptional service! The team seamlessly transformed our IT infrastructure with impressive efficiency. Their expertise and attention to detail were evident throughout the project. Highly recommended for anyone looking to upgrade their IT systems.",
+    rating: '4',
+    designation: 'Web developer',
+    name: 'Peter D.',
   },
 ];
 
 const portfolioData = [
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
-    category: 'digital',
+    category: 'mobile',
   },
   {
-    imgUrl: '/images/portfolio_1.jpeg',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'graphics',
-  },
-  {
-    imgUrl: '/images/portfolio_2.jpeg',
+    imgUrl: '/images/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'marketing',
-  },
-  {
-    imgUrl: '/images/portfolio_4.jpeg',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'graphics',
-  },
-  {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_1.jpeg',
+    imgUrl: '/images/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
-    category: 'marketing',
+    category: 'ai',
   },
   {
-    imgUrl: '/images/portfolio_2.jpeg',
+    imgUrl: '/images/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
-    category: 'graphics',
+    category: 'ai',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_4.jpeg',
+    imgUrl: '/images/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
-    category: 'marketing',
+    category: 'design',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
-    category: 'digital',
+    category: 'design',
+  },
+  {
+    imgUrl: '/images/portfolio1.png',
+    title: 'Marketing Web-design',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'website',
+  },
+  {
+    imgUrl: '/images/portfolio1.png',
+    title: 'Marketing Web-design',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'ai',
+  },
+  {
+    imgUrl: '/images/portfolio1.png',
+    title: 'Marketing Web-design',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'ai',
   },
 ];
 
@@ -182,29 +182,29 @@ const brandData = [
 const stepData = [
   {
     imgUrl: 'images/step_1.jpeg',
-    title: 'Marketing',
-    desc: 'We provide a range of digital marketing lutions including website design.',
+    title: 'Consultation',
+    desc: 'We analyze your business requirements, identify technical challenges, and define a clear strategy to build scalable and efficient software solutions.',
     step: '01',
   },
   {
     imgUrl: 'images/step_2.jpeg',
     title: 'Development',
-    desc: 'We provide a range of digital marketing lutions including website design.',
+    desc: 'Our expert engineers design, develop, and test high-performance applications using modern technologies and industry best practices.',
     step: '02',
   },
   {
     imgUrl: 'images/step_3.jpeg',
-    title: 'Release',
-    desc: 'We provide a range of digital marketing lutions including website design.',
+    title: 'Deployment',
+    desc: 'We launch your solution securely and provide continuous monitoring, optimization, and long-term technical support.',
     step: '03',
   },
 ];
 
 const postData = [
   {
-    imgUrl: '/images/post_4.jpeg',
-    title: 'What services does your business?',
-    desc: 'We provide a range of digital marketing lutions including website design.',
+    imgUrl: '/images/posts/post_4.jpeg',
+    title: 'What solutions does your company offer?',
+    desc: 'We deliver complete IT consulting services including software development.',
     postUrl: '/blog/blog-details',
     postedBy: 'admin',
     adminUrl: '/',
@@ -212,9 +212,9 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_5.jpeg',
-    title: 'Introducing the latest tech features for you',
-    desc: 'We provide a range of digital marketing lutions including website design.',
+    imgUrl: '/images/posts/post_5.jpeg',
+    title: 'Discover the newest technology updates',
+    desc: 'We build scalable cloud solutions and modern enterprise applications.',
     postUrl: '/blog/blog-details',
     postedBy: 'admin',
     adminUrl: '/',
@@ -222,9 +222,9 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_6.jpeg',
-    title: 'The creative studio coming soon',
-    desc: 'We provide a range of digital marketing lutions including website design.',
+    imgUrl: '/images/posts/post_6.jpeg',
+    title: 'Our innovative tech studio launching soon',
+    desc: 'We help startups grow with secure and innovative technology.',
     postUrl: '/blog/blog-details',
     postedBy: 'admin',
     adminUrl: '/',
@@ -266,7 +266,7 @@ export default function Home2() {
 
       <Section pb="140" pbLg="80" className="position-relative">
         <AboutSectionStyle2
-          imgUrl="/images/about_img_1.png"
+          imgUrl="/images/about_img_11.png"
           bgImgUrl="/images/experience_bg_2.jpg"
           workExprience="40"
           workExprienceTitle="Work Experience"
@@ -326,13 +326,12 @@ export default function Home2() {
           sectionSubTitle="Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses."
           featureList={[
             'Refreshing to get such a personal touch',
-            'Refreshing to get such a personal touch',
           ]}
           contactInfo={[
             {
               imgUrl: '/images/icons/contact_icon_1.svg',
               titleUp: 'Have Any Question?',
-              title: '+ 1 (307) 274 2280',
+              title: '+ 1 (708) 465-1319',
               textColor: 'text-primary',
             },
             {

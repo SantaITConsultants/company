@@ -27,7 +27,7 @@ export default function Footer() {
               Have Any Question?
             </h3>
             <h2 className="text-white fw-medium m-0 cs_fs_22">
-              + 1 (307) 274 2280
+              + 1 (708) 465-1319
             </h2>
           </div>
           <div className="cs_footer_logo">
@@ -48,10 +48,11 @@ export default function Footer() {
               <div className="cs_footer_item cs_pt_20 cs_pb_20">
                 <div className="cs_text_widget">
                   <p>
-                    I've been using [business name] for the past year and I'm so
-                    glad I did. Their products and services are top-notch and
-                    their customer service is amazing. I would highly recommend
-                    them to anyone
+                    I’ve worked with SantaITConsultants for over a year,
+                    and their technical expertise has been outstanding.
+                    They delivered reliable solutions on time and
+                    significantly improved our system performance.
+                    Highly recommended for any growing business.
                   </p>
                 </div>
                 <SocialBtns variant="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5" />
@@ -64,7 +65,7 @@ export default function Footer() {
               <div className="cs_footer_item cs_pt_20 cs_pb_20">
                 <NewsLetterWidget
                   title="Newsletter"
-                  subTitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+                  subTitle="Subscribe to receive the latest technology insights, security updates, and IT best practices delivered straight to your inbox."
                 />
               </div>
             </div>

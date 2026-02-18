@@ -9,8 +9,8 @@ export default function Service({ iconUrl, title, subTitle, imgUrl, href }) {
           <img src={iconUrl} alt="Icon" />
         </div>
         <h2 className="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0">
-          <Link 
-            // to={href} 
+          <Link
+            to={href}
             className="inline-block"
           >
             {parse(title)}
@@ -20,7 +20,7 @@ export default function Service({ iconUrl, title, subTitle, imgUrl, href }) {
       <p className="cs_mb_24">{parse(subTitle)}</p>
       <div className="cs_service_thumb position-relative cs_rounded_5">
         <Link
-          // to={href}
+          to={href}
           className="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white"
         >
           <svg

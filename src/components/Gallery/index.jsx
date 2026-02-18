@@ -3,20 +3,20 @@ import Portfolio from '../Portfolio';
 
 const categoryMenu = [
   {
-    title: 'application',
-    category: 'application',
-  },
-  {
-    title: 'website',
+    title: 'Website',
     category: 'website',
   },
   {
-    title: 'digital',
-    category: 'digital',
+    title: 'Mobile App',
+    category: 'mobile',
   },
   {
-    title: 'marketing',
-    category: 'marketing',
+    title: 'AI & Machine Learning',
+    category: 'ai',
+  },
+  {
+    title: 'UI/UX Design',
+    category: 'design',
   },
 ];
 
@@ -44,10 +44,10 @@ export default function Gallery({ data }) {
         {data.slice(0, itemShow).map((item, index) => (
           <div
             className={`col-lg-4 col-md-6 ${active === 'all'
-                ? ''
-                : !(active === item.category)
-                  ? 'd-none'
-                  : ''
+              ? ''
+              : !(active === item.category)
+                ? 'd-none'
+                : ''
               }`}
             key={index}
           >

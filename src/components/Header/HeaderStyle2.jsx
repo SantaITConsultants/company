@@ -131,7 +131,7 @@ export default function HeaderStyle2({ variant }) {
                     <h3 className="fw-normal cs_mb_6 cs_fs_13">
                       Need help? Call us:
                     </h3>
-                    <h3 className="m-0 cs_fs_13">+1 (307) 274 2280</h3>
+                    <h3 className="m-0 cs_fs_13">+1 (708) 465-1319</h3>
                   </div>
                 </div>
               </div>

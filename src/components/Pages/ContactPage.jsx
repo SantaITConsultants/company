@@ -39,7 +39,7 @@ export default function ContactPage() {
                 <div className="cs_iconbox_wrapper cs_style1">
                   <IconboxStyle2
                     imgUrl="/images/icons/contact_icon_1.svg"
-                    title="+ 1 (307) 274 2280"
+                    title="+ 1 (708) 465-1319"
                     titleUp="Have Any Question?"
                   />
                   <IconboxStyle2
