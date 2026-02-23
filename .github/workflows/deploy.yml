@@ -1,4 +1,4 @@
-name: Deploy SantaitConsultants Website
+name: Deploy SantaitConsultants, LLC Website
 
 on:
   push:
