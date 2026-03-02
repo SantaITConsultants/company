@@ -326,7 +326,7 @@ export default function PortfolioPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Our Portfolio" bgUrl="/images/header/page_header_1.jpeg" />
+      <Breadcrumb title="Our Portfolio" bgUrl="/images/header/page_header_2.jpg" />
       <Section pt="130" ptLg="75" pb="125" pbLg="55">
         <div className="container">
           <Gallery data={portfolioData} />

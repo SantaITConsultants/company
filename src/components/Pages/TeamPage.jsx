@@ -68,7 +68,7 @@ export default function TeamPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Team Members" bgUrl="/images/header/page_header_1.jpeg" />
+      <Breadcrumb title="Team Members" bgUrl="/images/header/page_header_4.jpg" />
       <Section pt="140" ptLg="80" pb="110" pbLg="55">
         <div className="container">
           <TeamSection data={teamData} />

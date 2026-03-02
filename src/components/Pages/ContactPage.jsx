@@ -17,7 +17,7 @@ export default function ContactPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Contact" bgUrl="/images/header/page_header_1.jpeg" />
+      <Breadcrumb title="Contact" bgUrl="/images/header/page_header_6.jpg" />
       <Section pt="133" ptLg="75" pb="133" pbLg="75">
         <div className="container">
           <div className="row">

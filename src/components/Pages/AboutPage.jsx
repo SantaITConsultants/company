@@ -108,7 +108,7 @@ export default function AboutPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="About Us" bgUrl="/images/header/page_header_1.jpeg" />
+      <Breadcrumb title="About Us" bgUrl="/images/header/page_header_5.jpg" />
 
       <Section
         pt="135"
